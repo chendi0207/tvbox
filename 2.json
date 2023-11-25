@@ -1,26 +1,20 @@
 {
   "sites": [
-    {
-      "key": "dr_豆瓣",
-      "name": "🔍豆瓣首页",
-      "type": 3,
-      "api": "https://agit.ai/fantaiying/fty/raw/branch/master/JS/lib/drpy.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "http://agit.ai/fantaiying/fty/raw/branch/master/JS/js/drpy.js"
-    },
-	  
-    {
-      "key": "csp_FanYY",
-      "name": "🧸玩偶|阿里",
-      "type": 3,
-      "api": "csp_WoGG",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://127.0.0.1:9978/file/fatcat/token.txt$$$https://wogg.xyz/"
-    },
+        {
+            "key": "js豆瓣",
+            "name": "🍥豆瓣首页🍥",
+            "type": 3,
+            "api": "https://jihulab.com/iduoduo/xduo/-/raw/main/libs/drpy2.min.js",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://jihulab.com/iduoduo/xduo/-/raw/main/libs/douban.js"
+        },	
+
+
+{"key":"csp_WoGG","name":"🧸玩偶|阿里","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$关"},
+
+	
 		      {
       "key": "csp_search_七夜",
       "name": "🔎七夜|阿里",
@@ -42,6 +36,16 @@
       "filterable": 0,
       "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
     },
+	  {"key":"UpYun",
+	"name":"☁️云搜|阿里",
+	"type":3,
+	"api":"csp_UpYun",
+	"searchable":1,
+	"quickSearch":1,
+	"filterable":0,
+	"changeable":0,
+	"ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
+},
 	      {
       "key": "csp_search_PanSearch",
       "name": "🗂️盘搜|阿里",
@@ -75,67 +79,28 @@
       "filterable": 0,
       "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
     },
-	    {
-			"key": "XYQH_电影港",
-			"name": "🛳港口|磁力",
-			"type": 3,
-			"playerType": 1,
-			"api": "csp_XYQHiker",
-		    "jar": "https://jihulab.com/duomv/duo/-/raw/main/spider.txt;md5;46DC62C93BC8125354412EC50B6E7AA1",
-            "ext": "https://bitbucket.org/xduo/json/raw/master/港口.json"
-        },		
+        {
+            "key": "js_6V",
+            "name": "✡️|六维|磁力",
+            "type": 3,
+            "api": "https://jihulab.com/iduoduo/xduo/-/raw/main/libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://jihulab.com/iduoduo/xduo/-/raw/main/libs/6V.js"
+        },
+	          {
+            "key": "XYQH_电影港",
+            "name": "🛳|港口|磁力",
+            "type": 3,
+            "playerType": 1,
+            "api": "csp_XYQHiker",
+            "jar": "https://jihulab.com/iduoduo/xduo/-/raw/main/spider.txt;md5;A21EA6F5DD3B5F922B3A7F54D3BD0F16",
+            "ext": "https://agit.ai/leevi/duo/raw/branch/master/libs/港口.json"
+        },
 	  
 	  
-        {
-            "key": "js_企鹅",
-            "name": "🐧企鹅|官源",
-            "type": 3,
-            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox-/main/js/json/js/drpymin.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox-/main/js/json/js/qtv.js"
-        },
-        {
-            "key": "js_奇异",
-            "name": "🥝奇异|官源",
-            "type": 3,
-            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox-/main/js/json/js/drpymin.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox-/main/js/json/js/qzys.js"
-        },
-        {
-            "key": "js_芒果",
-            "name": "🥭芒芒|官源",
-            "type": 3,
-            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox-/main/js/json/js/drpymin.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox-/main/js/json/js/baimang.js"
-        },
-        {
-            "key": "js_优酷",
-            "name": "👑油库|官源",
-            "type": 3,
-            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox-/main/js/json/js/drpymin.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox-/main/js/json/js/youku.js"
-        },
- {
-            "key": "js_菜狗",
-            "name": "🐕️菜狗|官源",
-            "type": 3,
-            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox-/main/js/json/js/drpymin.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox-/main/js/json/caigou.js"
-        },
+	  
 	  
     {
       "key": "push_agent",
@@ -155,7 +120,7 @@
         {
           "name": "live",
           "urls": [
-            "proxy://do=live&type=txt&ext=https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox-/main/%E7%9B%B4%E6%92%AD%E6%BA%90/v.txt"
+            "proxy://do=live&type=txt&ext=https://mirror.ghproxy.com/https://raw.githubusercontent.com/niubihu1/tvbox-/main/%E7%9B%B4%E6%92%AD%E6%BA%90/v.txt"
           ]
         }
       ]
@@ -454,5 +419,5 @@
     "https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd"
   ],
   "wallpaper": "https://bingw.jasonzeng.dev/?index=random",
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox-/main/jar/Yoursmile0706.jar;md5;41C96D7A199819C4E6EB617EFFBE5CA4"
+  "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/niubihu1/tvbox-/main/jar/Yoursmile1123.jar"
 }
